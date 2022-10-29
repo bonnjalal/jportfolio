@@ -1,0 +1,14 @@
+site:
+  title: "JPortfolio"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/js/packages/jportfolio/kotlin/jportfolio.js"
+      api: "build/libs/jportfolio.jar"
+    prod:
+      script: "build/distributions/jportfolio.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
